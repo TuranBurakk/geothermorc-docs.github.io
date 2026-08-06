@@ -16,4 +16,4 @@ You may export or delete your data at any time from **Settings** in the app.
 
 ## Contact
 
-For privacy questions, use the developer contact email on the Google Play store listing (set the same address in Play Console → App content).
+For privacy questions, contact the developer using the email address shown on the Google Play store listing for GeoTherm ORC Studio.
