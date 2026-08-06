@@ -2,14 +2,29 @@
 
 Public privacy policy for **GeoTherm ORC Studio**.
 
-**Live URL:** https://turanburakk.github.io/geothermorc-docs/privacy-policy.html
+## Correct live URL
 
-## Enable GitHub Pages (one time)
+```
+https://turanburakk.github.io/geothermorc-docs/privacy-policy.html
+```
 
-Repo → **Settings** → **Pages** → **Build and deployment**:
+> **Note:** Repo name `geothermorc-docs.github.io` does **not** create `https://geothermorc-docs.github.io`.  
+> GitHub Pages project sites use: `https://<username>.github.io/<repo-name>/`.
 
-- **Source:** Deploy from a branch
-- **Branch:** `master` → folder **`/docs`**
-- Save, wait ~1 minute, open the URL above
+## Fix 404 — enable Pages (one time)
 
-Static HTML in `docs/` (no build step required).
+Open: https://github.com/TuranBurakk/geothermorc-docs/settings/pages
+
+**Option A — branch deploy (simplest)**
+
+1. **Build and deployment → Source:** Deploy from a branch
+2. **Branch:** `master` → **`/ (root)`**
+3. Save → wait ~1 minute → open the URL above
+
+**Option B — GitHub Actions**
+
+1. **Build and deployment → Source:** GitHub Actions
+2. **Actions** tab → run **Deploy GitHub Pages** → wait for green
+3. Open the URL above
+
+Static HTML at repo root — no build tools required.
