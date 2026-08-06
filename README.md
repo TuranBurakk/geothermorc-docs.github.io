@@ -1,9 +1,15 @@
 # GeoTherm ORC Studio — Docs
 
-Public documentation for **GeoTherm ORC Studio** (geothermal binary ORC plant calculator).
+Public privacy policy for **GeoTherm ORC Studio**.
 
-## Privacy policy
+**Live URL:** https://turanburakk.github.io/geothermorc-docs/privacy-policy.html
 
-https://turanburakk.github.io/geothermorc-docs/privacy-policy.html
+## Enable GitHub Pages (one time)
 
-Published via GitHub Pages from the `docs/` folder.
+Repo → **Settings** → **Pages** → **Build and deployment**:
+
+- **Source:** Deploy from a branch
+- **Branch:** `master` → folder **`/docs`**
+- Save, wait ~1 minute, open the URL above
+
+Static HTML in `docs/` (no build step required).
